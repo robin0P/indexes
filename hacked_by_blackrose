@@ -1,9 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>HACKED BY BLACKROSE</title>
-  </head>
-  <body>
-    hacked by blackrose
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked by BlackRose</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #000;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .hacked-text {
+            font-size: 4em;
+            letter-spacing: 0.1em;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000;
+            animation: flicker 1.5s infinite alternate;
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hacked-text">HACKED BY BLACKROSE</div>
+    </div>
+</body>
 </html>
